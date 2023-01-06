@@ -1,0 +1,46 @@
+/* Audrey Yoo, Count de Money style.css file */
+body {
+  margin: 20px;
+  box-sizing: border-box;
+  background-color: #388697;
+  font-family: "Tahoma";
+}
+
+h1 {
+  color: #EBBAB9;
+}
+
+p {
+  color: #B5FFE1;
+}
+
+.button {
+  border: none;
+  padding: 30px 65px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+button {
+  width: 200px;
+  height: 60px;
+  background-color: #B5FFE1; 
+  color: #08415C;
+  font-family: "Tahoma";
+}
+
+button:hover {
+  background-color: #EBBAB9;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.values, .buttons {
+  width: 40%;
+  padding: 20px;
+  border: 2px solid #EBBAB9;
+} 

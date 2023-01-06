@@ -1,0 +1,47 @@
+<!-- Audrey Yoo, Count de Money index.html file -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Count de Money</title>
+  <script src='script.js' type='text/javascript'></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <body onload="initialize();">
+    <h1>Count de Money: Your Collection</h1>
+    <p>Add and subtract money from each coin type to change your money collection using the buttons. View your total amount of money on the right side of the page.</p>
+    <div class="container">
+      <div class="buttons">
+        <p>Pennies:</p>
+        <p id="pennies"></p>
+        <button onclick="addPenny();">+1 Penny</button>
+        <button onclick="subtractPenny();">-1 Penny</button>
+        <p>Nickels:</p>
+        <p id="nickels"></p>
+        <button onclick="addNickel();">+1 Nickel</button>
+        <button onclick="subtractNickel();">-1 Nickel</button>
+        <p>Dimes:</p>
+        <p id="dimes"></p>
+        <button onclick="addDime();">+1 Dime</button>
+        <button onclick="subtractDime();">-1 Dime</button>
+        <p>Quarters:</p>
+        <p id="quarters"></p>
+        <button onclick="addQuarter();">+1 Quarter</button>
+        <button onclick="subtractQuarter();">-1 Quarter</button>
+      </div>
+      <div class="values">
+        <p>Total Money:</p>
+        <p id="total"></p>
+        <p>Value of Pennies:</p>
+        <p id="valueOfPennies"></p>
+        <p>Value of Nickels:</p>
+        <p id="valueOfNickels"></p>
+        <p>Value of Dimes:</p>
+        <p id="valueOfDimes"></p>
+        <p>Value of Quarters:</p>
+        <p id="valueOfQuarters"></p>
+      </div>
+    </div>
+  </body>
+</html>
