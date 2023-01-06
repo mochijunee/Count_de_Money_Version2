@@ -8,4 +8,4 @@ My revisions:
 2. Changed the color and styling of background, font, and buttons
 3. Changed the structure and organization to make the website less flashy and more professional
 4. Added instructions to the website
-5. Added a "back to top" button so that users can easily access all parts of the page when needed
+5. Made it responsive to different screens
